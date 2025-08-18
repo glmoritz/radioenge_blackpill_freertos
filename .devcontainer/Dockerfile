@@ -53,7 +53,7 @@ RUN TOOLCHAIN_DIR=$(find /usr -maxdepth 1 -type d -name "arm-gnu-toolchain*" -pr
     && echo "Found toolchain at: ${TOOLCHAIN_DIR}" \
     && echo "export PATH=${TOOLCHAIN_DIR}/bin:\$PATH" >> /etc/profile.d/arm-toolchain.sh
 
-ENV PATH /usr/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin:$PATH
+ENV PATH=/usr/arm-gnu-toolchain-14.3.rel1-x86_64-arm-none-eabi/bin:$PATH
 
 # Custom bash prompt
 RUN echo "__bash_prompt() {\n" \
