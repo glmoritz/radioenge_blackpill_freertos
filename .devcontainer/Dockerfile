@@ -30,6 +30,7 @@ RUN apt update \
     tcl-dev \
     wget \
     ca-certificates \
+    stlink-tools \
     && rm -rf /var/lib/apt/lists/*
 
 # Update PIP and install Python tools
