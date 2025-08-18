@@ -31,6 +31,7 @@ RUN apt update \
     wget \
     ca-certificates \
     stlink-tools \
+    openssh-client \
     && rm -rf /var/lib/apt/lists/*
 
 # Update PIP and install Python tools
