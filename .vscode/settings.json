@@ -9,6 +9,7 @@
         "uartringbufdma.h": "c",
         "semphr.h": "c",
         "main.h": "c",
-        "string.h": "c"
+        "string.h": "c",
+        "radioenge_modem.h": "c"
     }
 }

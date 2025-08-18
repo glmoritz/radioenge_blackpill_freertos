@@ -1,6 +1,9 @@
 #include "cmsis_os.h"
 #include "uart_at.h"
 #include "uartRingBufDMA.h"
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
 
 #define SEND_RAW_AT_WAIT_FLAG (0x80)
 

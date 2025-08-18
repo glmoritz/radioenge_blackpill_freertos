@@ -3,6 +3,8 @@
 #include "uart_at.h"
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
+
 
 volatile JOINED_STATE gJoinedFSM = JOINED_TX;
 volatile RADIO_STATE gRadioState = RADIO_RESET;
