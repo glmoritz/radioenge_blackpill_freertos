@@ -15,7 +15,7 @@
                 "reveal": "always"
             },
             "problemMatcher": [
-                "$gcc"
+                "$gcc"                
             ]
         },
         {

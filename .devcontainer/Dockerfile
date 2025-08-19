@@ -32,6 +32,8 @@ RUN apt update \
     ca-certificates \
     stlink-tools \
     openssh-client \
+    openocd \ 
+    libusb-1.0-0-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Update PIP and install Python tools

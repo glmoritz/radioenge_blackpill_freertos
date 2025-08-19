@@ -1,0 +1,96 @@
+# Build artifacts
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.su
+*.a
+*.so
+
+# ARM GCC specific
+*.axf
+*.out
+*.dep
+*.tmp
+
+# IDE and editor files
+*.code-workspace
+
+# STM32CubeIDE
+.metadata/
+.settings/
+Debug/
+Release/
+*.launch
+
+# System files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+*.log
+
+# Documentation
+*.pdf
+*.doc
+*.docx
+html/
+latex/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compiled Object files
+*.slo
+*.lo
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.la
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.app
+*.i*86
+*.x86_64
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Generated files
+tags
+TAGS
+*.orig
+*.rej
+
+# Python cache (if using Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node modules (if using Node.js tools)
+node_modules/
+npm-debug.log*
+
+# Temporary directories
+tmp/
+temp/
